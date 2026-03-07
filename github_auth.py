@@ -29,8 +29,8 @@ import threading
 import requests
 from flask import Flask, request, redirect, jsonify
 
-GITHUB_CLIENT_ID     = os.environ.get("GITHUB_CLIENT_ID", "Ov23liz6u0fps68CsNrp")
-GITHUB_CLIENT_SECRET = os.environ.get("GITHUB_CLIENT_SECRET", "5aaea2e99f5fde63353f482534f21c38e6c5c5fc")
+GITHUB_CLIENT_ID     = os.environ.get("GITHUB_CLIENT_ID", "GITHUB_CLIENT_ID SEE README.md")
+GITHUB_CLIENT_SECRET = os.environ.get("GITHUB_CLIENT_SECRET", "GITHUB_CLIENT_SECRET SEE README.md")
 GITHUB_REDIRECT_URI  = "https://auth.teamdev.sbs/callback"
 AUTH_BASE_URL        = "https://auth.teamdev.sbs"
 
