@@ -29,10 +29,10 @@ import threading
 import requests
 from flask import Flask, request, redirect, jsonify
 
-GITHUB_CLIENT_ID     = os.environ.get("GITHUB_CLIENT_ID", "GITHUB_CLIENT_ID SEE README.md")
-GITHUB_CLIENT_SECRET = os.environ.get("GITHUB_CLIENT_SECRET", "GITHUB_CLIENT_SECRET SEE README.md")
-GITHUB_REDIRECT_URI  = "https://auth.teamdev.sbs/callback"
-AUTH_BASE_URL        = "https://auth.teamdev.sbs"
+GITHUB_CLIENT_ID     = os.environ.get("GITHUB_CLIENT_ID", "Ov23liU3HinqqquZwdha")
+GITHUB_CLIENT_SECRET = os.environ.get("GITHUB_CLIENT_SECRET", "b97e4cbd4f970ebe31f8851e723686c754c331b5")
+GITHUB_REDIRECT_URI  = "https://holy-constancy-ikbryt91-468c91e9.koyeb.app/callback"
+AUTH_BASE_URL        = "https://holy-constancy-ikbryt91-468c91e9.koyeb.app/"
 
 _pending_states: dict[str, int] = {}
 _db   = None
