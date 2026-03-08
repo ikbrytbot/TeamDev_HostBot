@@ -53,7 +53,7 @@ MONGODB_URI = "mongodb+srv://royalitybots_db_user:948Ptb7Toysx8cd7@cluster0.o2wm
 LOG_CHANNEL_ID = -1003386075651
 OWNER_ID   = 8422190094
 ADMIN_IDS  = [8422190094]
-VPS_HOST_IP = os.environ.get("VPS_HOST_IP", "YOUR_VPS_IP")
+VPS_HOST_IP = os.environ.get("3.85.108.171", "vpsuser")
 
 bot            = telebot.TeleBot(BOT_TOKEN, parse_mode='HTML')
 db             = Database(MONGODB_URI)
